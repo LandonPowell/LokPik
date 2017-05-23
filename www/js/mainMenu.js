@@ -3,7 +3,8 @@ global
     game,
     lockSettings,
     pick,
-    center
+    center,
+    showInterstitial
 */
 
 var page = 0;
@@ -125,6 +126,8 @@ function changeLevel(lvl) {
     if (lvl == 'mainMenu') {
         return game.state.start(lvl);
     }
+
+    showInterstitial(); // Ad Mob code.
 
     var level = levels[lvl];
     lockSettings.pins = level.pins;
