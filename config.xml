@@ -1,11 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloCordova</name>
+    <name>LokPik</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A lock picking game for mobile devices using Phaser and Cordova. 
+        Allows the player to manipulate pins with their pick and apply 
+        tension, with the goal of lining them up with the shearline and 
+        opening the lock.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="landonjamespowell@gmail.com" href="http://github.com/LandonPowell">
+        LandonPowell - LokPik's Dev
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
